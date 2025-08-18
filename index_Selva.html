@@ -3,192 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style_prag.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Caveat:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet"> -->
+    <title>Selva Vikash Portfolio</title>
+
+    <!-- Embedded CSS -->
+    <style>
+        html {
+            background-color: rgb(13, 3, 20);
+            margin: 1px 50px;
+            scroll-behavior: smooth;
+            font-size: larger;
+        }
+
+        #one {
+            padding: 7px;
+            margin-top: 10px;
+            position: sticky;
+            backdrop-filter: blur(20px);
+            top: 10px;
+            z-index: 1;
+        }
+
+        .white {
+            color: white;
+        }
+
+        th {
+            padding-left: 40px;
+        }
+
+        .two {
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 7px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #insidetable {
+            margin-left: 20px;
+        }
+
+        #maintable {
+            margin: 40px;
+        }
+
+        #imagerow {
+            padding-left: 100px;
+        }
+
+        .whitetrace {
+            border: 1px solid;
+            line-height: 1.5;
+            border-radius: 10px;
+        }
+
+        hr {
+            width: 89%;
+        }
+
+        #education,
+        #contact {
+            line-height: 2;
+            font-size: 20px;
+        }
+
+        #home {
+            width: 98%;
+            height: 500px;
+        }
+
+        #imagefont {
+            width: 98%;
+            height: 400px;
+            margin-bottom: 200px;
+            padding-top: 110px;
+        }
+    </style>
 </head>
 <body>
     <div id="one">
         <center>
-        <table>
-            <thead>
-            <tr>
-                <th><a href="#home">Home</a></th>
-                <th><a href="#about" >About</a></th>
-                <th><a href="#education">Education</a></th>
-                <th><a href="#contact">Contact</a></th>
-            </tr>
-        </thead>
-        </table>
-    </center>
+            <table>
+                <thead>
+                    <tr>
+                        <th><a href="#home">Home</a></th>
+                        <th><a href="#about">About</a></th>
+                        <th><a href="#education">Education</a></th>
+                        <th><a href="#contact">Contact</a></th>
+                    </tr>
+                </thead>
+            </table>
+        </center>
     </div>
+
     <div class="two" id="home">
         <div id="imagefont">
-        <center>
-        <h1>Hello Wellcome My portfolio</h1>
-        <h2>I'm Selva Vikash</h2>
-        <h3 >I am frontend developer</h3>
-        <p>This is my portfolio built using HTML, CSS, and JavaScript. Explore my profile to know more about my education and contact details.</p>
-        </center>
+            <center>
+                <h1>Hello Welcome to My Portfolio</h1>
+                <h2>I'm Selva Vikash</h2>
+                <h3>I am a Frontend Developer</h3>
+                <p>This is my portfolio built using HTML, CSS, and JavaScript. Explore my profile to know more about my education and contact details.</p>
+            </center>
         </div>
     </div>
+
     <div class="two" id="about">
         <center><h1 style="font-size: 40px;">About</h1><hr></center>
-        <table  id="maintable"  cellspacing="30" cellpadding="8">
+        <table id="maintable" cellspacing="30" cellpadding="8">
             <tr>
-                <td id="imagerow"><img src="./Selva_vikash(photo_No_bg).png" alt="photo" width="200px" height="250px"></td>
+                <td id="imagerow">
+                    <img src="./Selva_vikash(photo_No_bg).png" alt="photo" width="200px" height="250px">
+                </td>
                 <td colspan="2">
                     <center>
-                    <h2>Introduction</h2>
-                    <table  id="insidetable" cellpadding="10">
-                        <tr>
-                            <td><li></li></td>
-                            <td>Name: Selva vikash P</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Pursuing Bachelor of Engineering in Computer Science and Engineering (CSE)</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Studying at KIT-Kalaignarkarunanidhi Institute Of Technology Engineering College</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Passionate and curious about how technology works</td>
-                        </tr>
-                    </table>
+                        <h2>Introduction</h2>
+                        <table id="insidetable" cellpadding="10">
+                            <tr>
+                                <td><li></li></td>
+                                <td>Name: Selva Vikash P</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Pursuing Bachelor of Engineering in Computer Science and Engineering (CSE)</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Studying at KIT - Kalaignarkarunanidhi Institute Of Technology</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Passionate and curious about how technology works</td>
+                            </tr>
+                        </table>
                     </center>
                 </td>
             </tr>
             <tr>
                 <td class="whitetrace">
                     <center>
-                    <h4>Interests</h4>
-                    <table>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Cloud computing</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Web development using HTML, CSS, and JavaScript</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Circuit design and simulation </td>
-                        </tr>
-                    </table>
+                        <h4>Interests</h4>
+                        <table>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Cloud computing</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Web development using HTML, CSS, and JavaScript</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Circuit design and simulation</td>
+                            </tr>
+                        </table>
                     </center>
                 </td>
                 <td class="whitetrace">
                     <center>
-                    <h4>Skills</h4>
-                    <table>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Basic programming knowledge</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Web design and frontend development</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Problem-solving and logical thinking</td>
-                        </tr>
-                    </table>
+                        <h4>Skills</h4>
+                        <table>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Basic programming knowledge</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Web design and frontend development</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Problem-solving and logical thinking</td>
+                            </tr>
+                        </table>
                     </center>
                 </td>
                 <td class="whitetrace">
                     <center>
-                    <h4>Hobbies</h4>
-                    <table>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Listening to music</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Exploring new gadgets and technologies</td>
-                        </tr>
-                        <tr>
-                            <td><li></li></td>
-                            <td>Spending time with friends and family</td>
-                        </tr>
-                    </table>
+                        <h4>Hobbies</h4>
+                        <table>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Listening to music</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Exploring new gadgets and technologies</td>
+                            </tr>
+                            <tr>
+                                <td><li></li></td>
+                                <td>Spending time with friends and family</td>
+                            </tr>
+                        </table>
                     </center>
                 </td>
             </tr>
-        </table>   
+        </table>
     </div>
 
     <div class="two" id="education">
         <center>
-        <h1>Education</h1><hr>
-        <ul>
-        <table cellspacing="20">
-            <tr>
-                <td><li></li></td>
-                <th>B.E-CSE</th>
-                <td>-</td>
-                <td>Kalaignarkarunanidhi Institute Of Technology</td>
-            
-            </tr>
-            <tr>
-                <td><li></li></td>
-                <th>HSC</th>
-                <td>-</td>
-                <td>RKR Grks matric hr sec school</td>
-            
-            </tr>
-            <tr>
-                <td><li></li></td>
-                <th>SSLC</th>
-                <td>-</td>
-                <td>RKR Grks matric hr sec school</td>
-            
-            </tr>
-        </table>
-        </ul>
-    </center>
-   </div>
+            <h1>Education</h1><hr>
+            <ul>
+                <table cellspacing="20">
+                    <tr>
+                        <td><li></li></td>
+                        <th>B.E-CSE</th>
+                        <td>-</td>
+                        <td>Kalaignarkarunanidhi Institute Of Technology</td>
+                    </tr>
+                    <tr>
+                        <td><li></li></td>
+                        <th>HSC</th>
+                        <td>-</td>
+                        <td>RKR Grks Matric Hr Sec School</td>
+                    </tr>
+                    <tr>
+                        <td><li></li></td>
+                        <th>SSLC</th>
+                        <td>-</td>
+                        <td>RKR Grks Matric Hr Sec School</td>
+                    </tr>
+                </table>
+            </ul>
+        </center>
+    </div>
+
     <div class="two" id="contact">
         <center>
-        <h1>Contact</h1><hr>
-        <table cellspacing="20">
-            <tr>
-                <th>Email</th>
-                <td>:</td>
-                <td>pselvavikash666.com</td>
-            </tr>
-            <tr>
-                <th>Phone</th>
-                <td>:</td>
-                <td>8940105504</td>
-            </tr>
-            <tr>
-                <th>LinkedIn</th>
-                <td>:</td>
-                <td><a href="https://www.linkedin.com/in/selva-vikash-p-0422692a6/?originalSubdomain=in"> Selva vikash P</a></td>
-            </tr>
-
-
-
-
-
-
-
-
-
-
-        </table>    
-    </center>
+            <h1>Contact</h1><hr>
+            <table cellspacing="20">
+                <tr>
+                    <th>Email</th>
+                    <td>:</td>
+                    <td>pselvavikash666.com</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>:</td>
+                    <td>8940105504</td>
+                </tr>
+                <tr>
+                    <th>LinkedIn</th>
+                    <td>:</td>
+                    <td>
+                        <a href="https://www.linkedin.com/in/selva-vikash-p-0422692a6/?originalSubdomain=in" target="_blank">
+                            Selva Vikash P
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </center>
     </div>
 </body>
 </html>
