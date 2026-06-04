@@ -1,264 +1,107 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selva Vikash Portfolio</title>
-
-    <!-- Embedded CSS -->
-    <style>
-        html {
-            background-color: rgb(13, 3, 20);
-            margin: 1px 50px;
-            scroll-behavior: smooth;
-            font-size: larger;
-        }
-
-        #one {
-            padding: 7px;
-            margin-top: 10px;
-            position: sticky;
-            backdrop-filter: blur(20px);
-            top: 10px;
-            z-index: 1;
-        }
-
-        .white {
-            color: white;
-        }
-
-        th {
-            padding-left: 40px;
-        }
-
-        .two {
-            color: white;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 7px;
-        }
-
-        a {
-            text-decoration: none;
-            color: white;
-        }
-
-        #insidetable {
-            margin-left: 20px;
-        }
-
-        #maintable {
-            margin: 40px;
-        }
-
-        #imagerow {
-            padding-left: 100px;
-        }
-
-        .whitetrace {
-            border: 1px solid ;
-            line-height: 1.5;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        hr {
-            width: 89%;
-        }
-
-        #education,
-        #contact {
-            line-height: 2;
-            font-size: 20px;
-        }
-
-        #home {
-            width: 98%;
-            height: 500px;
-        }
-
-        #imagefont {
-            width: 98%;
-            height: 400px;
-            margin-bottom: 200px;
-            padding-top: 110px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selva Vikash P | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#0b1120;color:#e5e7eb;line-height:1.7}
+nav{position:sticky;top:0;background:#111827;padding:15px;text-align:center}
+nav a{color:#fff;text-decoration:none;margin:0 15px}
+.hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:40px;padding:80px 20px}
+.hero img{width:320px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.hero-content{max-width:600px}
+.hero h1{font-size:3rem}
+.hero h2{color:#38bdf8;margin:10px 0}
+.btn{display:inline-block;background:#38bdf8;color:#000;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:bold;margin:10px 10px 0 0}
+.container{max-width:1100px;margin:auto;padding:20px}
+section{margin:60px 0}
+.section-title{color:#38bdf8;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#111827;padding:20px;border-radius:15px;transition:.3s}
+.card:hover{transform:translateY(-6px)}
+footer{text-align:center;padding:30px;color:#9ca3af}
+</style>
 </head>
 <body>
-    <div id="one">
-        <center>
-            <table>
-                <thead>
-                    <tr>
-                        <th><a href="#home">Home</a></th>
-                        <th><a href="#about">About</a></th>
-                        <th><a href="#education">Education</a></th>
-                        <th><a href="#contact">Contact</a></th>
-                    </tr>
-                </thead>
-            </table>
-        </center>
-    </div>
 
-    <div class="two" id="home">
-        <div id="imagefont">
-            <center>
-                <h1>Hello Welcome to My Portfolio</h1>
-                <h2>I'm Selva Vikash</h2>
-                <h3>I am a Frontend Developer</h3>
-                <p>This is my portfolio built using HTML, CSS, and JavaScript. Explore my profile to know more about my education and contact details.</p>
-            </center>
-        </div>
-    </div>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <div class="two" id="about">
-        <center><h1 style="font-size: 40px;">About</h1><hr></center>
-        <table id="maintable" cellspacing="30" cellpadding="8">
-            <tr>
-                <td id="imagerow">
-                    <img src="./Selva_vikash(photo_No_bg).png" alt="photo" width="200px" height="250px">
-                </td>
-                <td colspan="2">
-                    <center>
-                        <h2>Introduction</h2>
-                        <table id="insidetable" cellpadding="10">
-                            <tr>
-                                <td><li></li></td>
-                                <td>Name: Selva Vikash P</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Pursuing Bachelor of Engineering in Computer Science and Engineering (CSE)</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Studying at KIT - Kalaignarkarunanidhi Institute Of Technology</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Passionate and curious about how technology works</td>
-                            </tr>
-                        </table>
-                    </center>
-                </td>
-            </tr>
-            <tr>
-                <td class="whitetrace">
-                    <center>
-                        <h4>Interests</h4>
-                        <table>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Cloud computing</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Web development using HTML, CSS, and JavaScript</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Circuit design and simulation</td>
-                            </tr>
-                        </table>
-                    </center>
-                </td>
-                <td class="whitetrace">
-                    <center>
-                        <h4>Skills</h4>
-                        <table>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Basic programming knowledge</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Web design and frontend development</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Problem-solving and logical thinking</td>
-                            </tr>
-                        </table>
-                    </center>
-                </td>
-                <td class="whitetrace">
-                    <center>
-                        <h4>Hobbies</h4>
-                        <table>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Listening to music</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Exploring new gadgets and technologies</td>
-                            </tr>
-                            <tr>
-                                <td><li></li></td>
-                                <td>Spending time with friends and family</td>
-                            </tr>
-                        </table>
-                    </center>
-                </td>
-            </tr>
-        </table>
-    </div>
+<div class="hero">
+<img src="profile.jpg" alt="Selva Vikash">
+<div class="hero-content">
+<h1>Selva Vikash P</h1>
+<h2>AI & Software Engineering Student</h2>
+<p>
+I enjoy building intelligent applications, automation workflows, and full-stack solutions.
+My focus areas include AI, Software Development, Cloud Computing, and Problem Solving.
+</p>
+<a class="btn" href="https://github.com/SelvavikashP">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/selva-vikash-p/">LinkedIn</a>
+</div>
+</div>
 
-    <div class="two" id="education">
-        <center>
-            <h1>Education</h1><hr>
-            <ul>
-                <table cellspacing="20">
-                    <tr>
-                        <td><li></li></td>
-                        <th>B.E-CSE</th>
-                        <td>-</td>
-                        <td>Kalaignarkarunanidhi Institute Of Technology</td>
-                    </tr>
-                    <tr>
-                        <td><li></li></td>
-                        <th>HSC</th>
-                        <td>-</td>
-                        <td>RKR Grks Matric Hr Sec School</td>
-                    </tr>
-                    <tr>
-                        <td><li></li></td>
-                        <th>SSLC</th>
-                        <td>-</td>
-                        <td>RKR Grks Matric Hr Sec School</td>
-                    </tr>
-                </table>
-            </ul>
-        </center>
-    </div>
+<div class="container">
 
-    <div class="two" id="contact">
-        <center>
-            <h1>Contact</h1><hr>
-            <table cellspacing="20">
-                <tr>
-                    <th>Email</th>
-                    <td>:</td>
-                    <td>pselvavikash666.com</td>
-                </tr>
-                <tr>
-                    <th>Phone</th>
-                    <td>:</td>
-                    <td>8940105504</td>
-                </tr>
-                <tr>
-                    <th>LinkedIn</th>
-                    <td>:</td>
-                    <td>
-                        <a href="https://www.linkedin.com/in/selva-vikash-p-0422692a6/?originalSubdomain=in" target="_blank">
-                            Selva Vikash P
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </center>
-    </div>
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<div class="card">
+I am a Computer Science Engineering student passionate about creating impactful technology solutions.
+I actively work on AI projects, web applications, coding platforms, and automation tools while continuously learning new technologies.
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="grid">
+<div class="card"><b>Languages</b><br>Java, Python, JavaScript, SQL</div>
+<div class="card"><b>Frontend</b><br>HTML, CSS, React</div>
+<div class="card"><b>Backend</b><br>Spring Boot, REST APIs</div>
+<div class="card"><b>AI & Automation</b><br>Generative AI, AI Agents, n8n</div>
+<div class="card"><b>Tools</b><br>Git, GitHub, VS Code, Postman</div>
+<div class="card"><b>Database</b><br>MySQL, MongoDB</div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Global Coding Score Tracker</h3>
+<p>Tracks coding platform ratings and performance in one dashboard.</p>
+</div>
+<div class="card">
+<h3>School & College Management System</h3>
+<p>Manages students, attendance, academics and faculty information.</p>
+</div>
+<div class="card">
+<h3>AI Rental & PG Recommendation System</h3>
+<p>AI-powered recommendation platform for rental houses and PGs.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+<div class="card">
+<p>GitHub: github.com/SelvavikashP</p>
+<p>LinkedIn: linkedin.com/in/selva-vikash-p</p>
+<p>Open to internships, collaborations, and software engineering opportunities.</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+© 2026 Selva Vikash P
+</footer>
+
 </body>
 </html>
-
